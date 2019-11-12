@@ -1,0 +1,13 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+	<ViewSettingsDialog confirm="onSortDialogConfirm" id="dialog_tablesettings">
+		<sortItems>
+			<ViewSettingsItem text="{/#Customer/Firstname/@sap:label}" key="Firstname" selected="true"/>
+			<ViewSettingsItem text="{/#Customer/Lastname/@sap:label}" key="Lastname"/>
+			<ViewSettingsItem text="{/#Customer/AcademicTitle/@sap:label}" key="AcademicTitle"/>
+			<ViewSettingsItem text="{/#Customer/Gender/@sap:label}" key="Gender"/>
+			<ViewSettingsItem text="{/#Customer/Email/@sap:label}" key="Email"/>
+			<ViewSettingsItem text="{/#Customer/Phone/@sap:label}" key="Phone"/>
+			<ViewSettingsItem text="{/#Customer/Website/@sap:label}" key="Website"/>
+		</sortItems>
+	</ViewSettingsDialog>
+</core:FragmentDefinition>
